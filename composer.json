@@ -1,0 +1,22 @@
+{
+  "name": "lims/captcha",
+  "description": "lims-captcha",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "limingshang",
+      "email": "18203232363@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Imagecaptcha\\": "src/"
+    }
+  }
+}
